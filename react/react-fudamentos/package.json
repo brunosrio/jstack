@@ -18,6 +18,8 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "6.7.4",
     "html-webpack-plugin": "^5.6.3",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
     "style-loader": "3.3.3",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
@@ -26,6 +28,7 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "17",
-    "react-dom": "17"
+    "react-dom": "17",
+    "styled-components": "^6.1.19"
   }
 }

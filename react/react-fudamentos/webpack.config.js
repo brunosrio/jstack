@@ -23,7 +23,7 @@ module.exports = {
         use: 'babel-loader',
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: [
           'style-loader',
           {
@@ -32,6 +32,7 @@ module.exports = {
               modules: true,
             },
           },
+          'sass-loader',
         ],
       },
     ],
@@ -41,5 +42,3 @@ module.exports = {
   },
 };
 
-console.log('=== LOADER TESTE ===');
-console.log(JSON.stringify(module.exports.module.rules, null, 2));
